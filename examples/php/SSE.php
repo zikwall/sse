@@ -54,7 +54,8 @@ class SSE
      */
     public function end(string $status) : void
     {
-        \Yii::$app->end($status);
+        //\Yii::$app->end($status);
+        exit();
     }
 
     /**
